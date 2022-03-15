@@ -1,0 +1,863 @@
+ul li{
+    list-style: none;
+}
+
+a, a:hover, a:focus{
+    text-decoration: none;
+    outline: 0px;
+    font-weight: 700;
+    /* background-color: transparent; */
+}
+input, button, select{
+    font-family: inherit;
+    outline: 0px;
+}
+.wholepage{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+} 
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (max-width:200px){
+    body{
+        background-color: black;
+    }
+}
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.mainDiv{
+    /* making page scrollable for testing sticky */
+    height: auto;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+div{
+    display: block;
+}
+
+a{
+    padding: 12px;
+    color: rgb(247, 8, 8);
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+height: 106px;
+}
+.myrowWith3column{
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    flex-wrap: nowrap; 
+    margin-right: 78px;
+    margin-left: 15px;
+    justify-content: space-around;
+    height: 100px;
+}
+/* p{
+    display: flex; justify-content:start;
+} */
+.input{
+    padding-top: 22px; 
+    border: 0px solid lightcyan; 
+    position: relative;
+    margin: 14px;
+}
+.menubar{
+    /* background: rgb(221 215 215 / 18%); */
+    background: #f5f5f5;
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    top: 0;
+    padding: 6px;
+    position: sticky;
+    font-size: 16px;
+    z-index: 1;/*sticky partlaii ourshop le overlap gareko le first ma rakhna using*/
+}
+
+
+/* form animated */
+/* input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  } */
+  
+  /* input[type=text]:focus {
+    width: 100%;
+  } */
+  /* for animated searchbox */
+  .logo{
+    margin-left: 69px;
+  }
+  .phone>p{
+    color: #434345;
+  }
+
+.search{
+    padding: 3px;
+    background: #efebebdc;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 39px;
+  }
+
+  .searchBox{
+      width: 20%;
+      
+  }
+  /* icon lai right side ma pathako */
+
+  input{
+      border: 0px;
+      line-height: 2;
+      background: rgb(243, 236, 236);
+  }
+  button{
+      border: 0px;
+  }
+  /*  */
+
+  /* for backgroundimage */
+  .photo{
+  /* background-image: url("../../../../image/demoPicture.jpg"); */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  /* width: 100%; */
+  opacity: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/image/demoPicture.jpg);
+ 
+}
+/* text lai opacity*/
+.uniquetext{
+    font-size: 86px;
+    text-align: center;
+    /* font-family: cursive; */
+    font-family: 'Dancing Script';
+    color: white;
+}
+.insideOurShop{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    top: 0;
+    font-family: 'Dancing Script'; 
+    font-size: 36px;
+    color: #f66875;  
+}
+.abc{
+    position: relative;
+}
+.abc::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 180px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+}
+.abc::after {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: 180px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+    top: 50%;
+}
+
+
+.abcd{
+    position: relative;
+    font-size: 55px;
+    font-family: 'Dancing Script';
+    color: white;
+}
+.abcd::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -118px;
+    height: 2px;
+    width: 100px;
+    background-color: white;
+}
+.abcd::after {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: -125px;
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    /* opacity: 0.2; */
+    top: 50%;
+}
+
+.ourLogo{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    top: 0;
+    font-family: 'Dancing Script'; 
+    font-size: 36px;
+    color: #f66875;  
+}
+.latestLogo{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+}
+.latestLogo::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 300px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+}
+.latestLogo::after {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: 300px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+    top: 50%;
+}
+
+
+
+/*  for second Menu*/
+.fourRow{
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    top: 0; 
+    padding: 0;
+    margin-bottom: 30px;
+    height: 50px;
+}
+/* a,  */
+a:hover, a:active, a:visited, a:focus {
+    text-decoration:underline;
+    /* padding: 20px; this will give animation effects */
+    /* opacity: 0.7;
+    transition: 0.6s;
+    background: linear-gradient(45deg, #ff0202b4, transparent); */
+}
+.contain{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.imageContainer{
+    width: 100%;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #ff02020d;
+}
+.firstpic{
+    max-width: 22.5%;
+    width: 100%;
+    flex: 0 0 25.5%;
+}
+.secondpic{
+    max-width: 22.5%;
+    width: 100%;
+    flex: 0 0 22.5%;
+}
+.thirdpic{
+    max-width: 22.5%;
+    width: 100%;
+    flex: 0 0 22.5%;
+}
+.fourpic{
+    max-width: 22.5%;
+    width: 100%;
+    flex: 0 0 22.5%;
+}
+
+.checked {
+    color: orange;
+  }
+
+
+    .price{
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+  .f2{
+    text-decoration: line-through;
+    padding-left: 15px;
+  }
+
+
+h3:hover, h3:focus{
+    border-radius: 25px;
+    background-color: rgba(255, 0, 0, 0.185);
+    padding: 20px;
+    width: 180px;
+    height: 15px;
+    padding-bottom: 45px;
+}
+
+.description{
+    color: rgba(255, 0, 0, 0.699);
+    font-size: large;
+    font-weight: bold;
+}
+
+.oneRowFourCOl{
+    max-width: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 68px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+.fstCOL,.secCol,.thdCol,.fthCol{
+    position: relative; 
+    max-width: 25%;
+    width: 100%;
+    flex: 0 0 25%;
+    color: white;
+}
+.two{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 2;
+    padding: 10px 10px 6px;
+    text-align: center;
+    background: #f66875;
+    z-index: 0;
+}
+.day{
+    display: block;
+    font-size: 30px;
+    line-height: 24px;
+}
+.month{
+    display: block;
+    font-size: 15px;
+    line-height: inherit;
+}
+.time{
+    font-size: 15px;
+    line-height: inherit;
+}
+
+
+
+/* upcomming image lai darker garne tarika */
+.upcomming{
+    width: 100%;
+    height: 866px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../../image/upComming.jpg');
+}
+
+.name{
+    padding: 0 auto;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 5px;
+    
+}
+.headerTwo{
+    font-size: 20px;
+    color: rgb(212, 212, 92);
+    margin: 0;
+}
+.fstmain,.secMain{
+    display: flex;
+    flex-direction: column;
+}
+
+/* view all workshop */
+.viewWorkshops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#viewWorkshops{
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.842);
+    border-radius:20%;
+    padding: 8px;
+    }
+
+/*  */
+.viewWorkshops{
+    padding: 50px;
+}
+.viewLink{
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* gallary */
+.sectionGalarry{
+    /* padding-top: 110px;  */
+    padding-bottom: 80px;
+    color: white;
+}
+.gContainer{
+    max-width: 1200px; 
+    width: 100%; 
+    padding-left: 15px; 
+    padding-left: 15px;
+    margin-right: auto; 
+    margin-left: auto;
+
+}
+.postBoxContainer{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -26px;
+    margin-left: 28px;
+
+}
+.colA{
+    flex: 0 0 45%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 3%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* text-align: center !important; */
+    background: linear-gradient(rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.7)), url('../../../image/latestblog1.jpg');
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+    /* background-image: url(../../../image/latestblog1.jpg); */
+
+}
+.colB{
+    flex: 0 0 45%;
+    margin-right: 3%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* text-align: center !important; */
+    background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.7)), url('../../../image/latestblog2.jpg');
+
+    /* height: 100%; */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+.colC{
+    flex: 0 0 45%;
+    margin-right: 3%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* text-align: center !important; */
+    background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.7)), url('../../../image/latestblog3.jpg');
+
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+.colD{
+    flex: 0 0 45%;
+    margin-right: 3%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* text-align: center !important; */
+    background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.7)), url('../../../image/latestblog4.jpg');
+
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+.listof{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: start;
+    border: 2px solid red;
+    margin-right: 23px;
+    height: 300px;
+    margin-top: 20px;
+}
+.thelist{
+    margin-top: 17px;
+}
+.handmade{
+    padding-right: 10px;
+    text-align: left;
+    background-color: #e8720b;
+    font-weight: 700;
+    line-height: 2;
+    
+}
+.text-regular{
+    margin-top: 174px;
+}
+.writerName{
+    color: yellow;
+}
+li{
+    color: yellow;
+}
+.authername{
+    display: flex;
+    padding: 0;
+}
+
+.viewWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#background-link{
+    background-color: red;
+    border-radius: 30vh;
+    background-color: #f66875;
+    border-color: #f66875;
+    color: white;
+    width: 200px;
+}
+
+
+/* artist rating logo. coped from above */
+.ratingWrapper{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    top: 0;
+    font-family: 'Dancing Script'; 
+    font-size: 36px;
+    color: #f66875;  
+}
+.artistRate{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+}
+.artistRate::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 250px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+}
+.artistRate::after {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: 250px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+    top: 50%;
+}
+/*  */
+
+
+/* artistdetails */
+
+.artistDetailsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.artistRow{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+.a1{
+    max-width: 30%;
+    width: 100%;
+    height: 168px;
+    flex: 0 0 33%;
+    margin-left: 34px;
+}
+
+.photoWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+.nameArtist{
+    color: #f66875;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.position{
+    color: #00000088;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.analysis{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/*  */
+
+/* view all members link */
+.viewMembersWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#viewMemLink{
+    color:#f66875 ;
+    border: 2px solid red;
+    border-radius: 15vh;
+    width: 200px;
+    padding: 14px;
+    padding-top: 8px;
+    margin-top: 17px;
+    margin-bottom: 50px;
+
+}
+/*  */
+
+/* footer part */
+.footerRow{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logoFooter{
+    max-width: 50%;
+    width: 100%;
+
+}
+.list{
+    max-width: 50%;
+    width: 100%;
+    margin-top: 31px;
+}
+#footerImage{
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.list{
+    margin-top: 31px;
+}
+.ulList{
+    margin-left: 65px;
+    margin-right: 16px;
+}
+li{
+    
+}
+.privacyPart{
+    color:rgba(255, 255, 255, 0.205);
+    margin-left: 70px;
+}
+
+a{
+    color:#434345
+}
+/*  */
+
+
+
+
+/* social sites logo */
+.socialSites{
+    margin-right: 80px;
+    margin-left: 90px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  place-items: center;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+/*  */

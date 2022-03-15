@@ -1,0 +1,79 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p</title>
+    <style>
+
+        *
+        {
+        	margin: 0px;
+        	padding: 0px;
+        	box-sizing: border-box;
+        }
+
+        .my-row {
+            display: flex;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+        a {
+            /*giving white color to all a tag*/
+                text-decoration: none;
+                color: #fff;
+        }   
+        ul li+li {
+            /*giving left padding for list starting from 2nd list. this will create space between lists */
+            padding-left: 25px;
+            }
+        .mycol-70
+        {
+            max-width: 70%;
+            width: 100%;
+            flex: 0 0 70%;
+        }
+        .mycol-30
+        {
+            max-width: 30%;
+            width: 100%;
+            flex: 0 0 30%;
+        }
+        .mycol-70 > ul
+        {
+            display: flex;
+            padding-left: 1em;
+            padding-top: 10px;
+            height: 30px;
+        }
+        ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header style="background: lightblue;padding-top: 20px;padding-bottom: 20px;">
+        <div class="cont" style="max-width: 1200px;width: 100%;margin: 0 auto;">
+            <div class="my-row" style="align-items: center;">
+                <div class="mycol-70">
+                    <ul>
+                     <li><a href="#home" style="display: inline-grid;color: white;">Dell</a></li>
+                    <li><a href="#news">Acer</a></li>
+                    <li><a href="#contact">HP</a></li>
+                    <li><a href="#about">Gaming</a></li>
+                  </ul>
+            </div>
+            <div class="mycol-30">
+                <div class="phone" style="text-align: right;">9841408541</div>
+            </div>
+        </div>
+</div> 
+</header>
+
+</body></html>
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #div{
+            position: absolute;
+            left: 50px;
+            width: calc(100% - 100px);
+            border: 1px solid black;
+            background-color: rgb(77, 184, 100);
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>Create div that stretches across the window,with 50px gap between both sides of that div and the edges of the window</p>
+    <div id="div">This is for the Example</div>
+</body>
+</html>

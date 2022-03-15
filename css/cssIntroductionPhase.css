@@ -1,0 +1,67 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.my-row {
+    
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Sofia', cursive;
+}
+a {
+    /*giving white color to all a tag*/
+        text-decoration: none;
+        color: #fff;
+}   
+ul li+li {
+    /*giving left padding for list starting from 2nd list. this will create space between lists */
+    padding-left: 25px;
+    }
+.mycol-70
+{
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+}
+.mycol-70 > ul
+{
+    display: flex;
+    padding-left: 1em;
+    padding-top: 10px;
+    height: 30px;
+    /* flex garisakera menu lai purai right ma lyako */
+    justify-content: end;
+    /*  */
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.phone
+{
+    text-align: right;
+    padding-left: 1em;
+    padding-top: 10px;
+    height: 30px;
+    
+}
+.icon
+{
+    padding-left: 1em;
+    padding-top: 10px;
+    height: 30px;
+    text-align: left;
+}
+.image
+{
+    border: 2px solid   black;
+
+}

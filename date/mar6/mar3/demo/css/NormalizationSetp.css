@@ -1,0 +1,63 @@
+Normalization is need to set the width,margin,padding, button style etc to default so that we can set our own value*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+    outline: 0px;
+}
+input, button, select{
+    font-family: inherit;
+    outline: 0px;
+}
+.wholepage{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434345;
+    text-align: left;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html *:first-child {
+    margin-top: 0;
+}
+div{
+    display: block;
+}
+.main-div {
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.phone{
+
+}
+
+.image{
+    
+}
+.search{
+
+}

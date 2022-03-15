@@ -1,0 +1,1213 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+}
+ul ,li{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a, a:hover, a:focus{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    outline: 0px;
+    font-weight: 900;
+    color: black;
+}
+input, button, select{
+    font-family: inherit;
+    outline: 0px;
+}
+.mainContainer{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    margin-right: -15px;
+    /* margin-left: -15px; */
+} 
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+/* .container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+.conatiner{
+  
+        max-width: 1152px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    
+}
+.navWrapper{
+    /* box-shadow: 7px 2px 12px 0px; */
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+.bigLogo img{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.logo{
+    height: 79px;
+    
+}
+.bigImage{
+    width: 100%;
+    background-image: url(/date/mar9/images/blinkImage.jpg);
+    padding-bottom: 210px;
+    padding-top: 210px;
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #fff;
+    text-align: center;
+}
+#imagePaddingTop{
+    padding-top: 176px;
+}
+.OneRowTwoCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    /* display: none; */
+}
+
+.about-title h2{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+    font-feature-settings: "liga" off;
+    color: #1d2c59;
+    margin-bottom: 16px;
+}
+.about-subtitle h3{
+    margin-bottom: 25px;
+    
+}
+.col-50{
+    color: rgb(0, 0, 0);
+    max-width: 50%;
+    flex: 0 0 50%;
+    width: 100%;
+    margin-left: -15;
+    margin-right: -15px;
+}
+.colWrap{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title h3{
+    color: #f63;
+}
+.subtitle h3{
+    color: white;
+}
+.paragraph p{
+    color: white;
+}
+.options h3{
+    color: rgba(255, 255, 255, 0.637);
+
+}
+.about-subtitle h3{
+    color: #f63;
+
+}
+
+
+.wrapperClass{
+margin-top: 50px;
+}
+
+/* for  <a> tag and learn more button */
+.about_button a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #f63;
+    padding: 16px 32px;
+    border: 2px solid #f63;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: .3s;
+}
+.choose {
+    background-image: url(//image/blink_white_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 224px 0 224px;
+    position: relative;
+    margin-top: -40px;
+    z-index: 9;
+}
+.choose_title{
+    height: 50px;
+    margin-top: 21px;
+}
+.choose:before {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPattern.jpg);
+    background-size: 464px 78px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    top: 100px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.choose:after {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPattern.jpg);
+    background-size: 464px 78px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* margin-bottom: 78px; */
+}
+
+.container{
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+.containerForBooking{
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -360px;
+}
+.choose_title h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    font-feature-settings: "liga" off;
+    color: #1d2c59;
+    margin-bottom: -50px;
+}
+.col-100 {
+    width: 100%;
+    flex: 0 0 100%;
+}
+.col33 {
+    max-width: 33.33%;
+    width: 100%;
+    flex: 0 33.33%;
+}
+.title h3{
+    /* color: #1d2c59; */
+}
+.choose_subtitle h3{
+    color: #f63;
+    font-size: 18px;
+
+}
+.icon{
+    margin-bottom: 16px;
+}
+.icon img{
+    height: 50px;
+    margin-top: 50px;
+}
+
+.booking_platform{
+    background-image: url(/image/blink_bookingLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 509px 0 451px;
+    margin-top: -110px;
+}
+.rowWithTwoCol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+
+}
+.col50{
+    max-width: 50%;
+    width: 100%;
+    flex: 0 50%;
+}
+
+
+
+/* get connected ra more about us link lai flex garera 2 side ma rakhne */
+.contactsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+}
+.getConnected{
+    max-width: 33%;
+    width: 100%;
+    flex: 0 33%;
+
+}
+.col50 img{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 29px;
+}
+.TwoRow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    max-width: 100%;
+    flex: 0 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.two{
+    width: 1220px;
+    margin-bottom: 51px;
+}
+.company{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    max-width: 1350px;
+    margin-right: -50px;
+}
+.comp{
+    position:relative;
+    max-width: 16.16%;
+    width: 100%;
+    flex: 0 16.16%;
+}
+
+.comp img{
+    width: 160px;
+    margin-top: 54px;
+}
+
+/* ah background image thulo vayera euta div aarko mathi rakhkeo */
+
+.ecoSystem{
+    margin-top: -301px;
+    background: white;
+}
+.one h3{
+    color: #1d2c59;
+}
+
+.blogStory{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1350px;
+    justify-content: center;
+}
+.blogImage{
+    margin-right: 5px;
+}
+.blogImage img {
+    padding-right: 15px;
+    height: 169px;
+    margin-top: 54px;
+    margin: 0;
+    padding:0 ;
+}
+.conatinerBlogs{
+    margin: 0;
+    padding: 0;
+    padding-left: 76px;
+    padding-right: 74px;
+
+}
+.blogsContainer{
+    margin: 0;
+    padding: 0;
+    padding-left: 76px;
+    padding-right: 74px;
+    margin-top: 50px;
+
+}
+
+.blogWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.date-blog h6{
+    padding-right: 200px;
+    margin-top: 13px;
+    color: #0000ff87;
+}
+.title-blog h4{
+    margin-top: -17px;
+    padding-left: 5px;
+}
+.read-blog a{
+    padding-right: 180px;
+    color: #f93;
+    margin-top: -14px;
+}
+.View_more_button{
+margin-top: 70px;
+}
+    
+.View_more_button a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #f63;
+    padding: 16px 32px;
+    border: 2px solid #f63;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: .3s;
+    
+    margin-left: 612px;
+}
+
+.Blogs:after {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPatterndown.jpg);
+    background-repeat: no-repeat;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    height: 200px;
+    margin-top: 120px
+}
+/* .Blogs:after {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPatterndown.jpg);
+    background-repeat: no-repeat;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    height: 200px;
+} */
+section.abc:before {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPatterndown.jpg);
+    background-size: 464px 78px;
+    background-repeat: no-repeat;
+    right: 0;
+    max-width: 460px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    margin-top: -220px;
+}
+.abc{
+    margin-bottom: 50px;
+}
+
+/* for our partners logo */
+.col50-50{
+    max-width: 50%;
+    width: 100%;
+    flex: 0 50%;
+}
+
+.icon-partners img{
+
+    width: 100%;
+}
+
+
+/*  */
+
+.contact{
+    background-color: #1d2c59;
+    padding: 50px;
+}
+
+.country {
+    color: white;
+}
+.address p{
+    margin-left: 24px;
+    margin-top: 0px;
+}
+.contact_form{
+    background: #fff;
+    padding: 80px;
+    border-radius: 8px;
+}
+label{
+    color: rgba(110, 110, 110, 0.842);
+}
+.form_wrap input{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    border: 2px solid #bfc6d9;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.conUS{
+    position: relative;
+
+}
+.conUS button{
+    position: absolute;
+    height: 40px;
+    /* margin-left: 46px; */
+    width: 412px;
+    color: white;
+    background: rgba(0, 0, 255, 0.342);
+}
+
+
+/* footer */
+#idFooter{
+    background-color: rgb(13, 13, 71);
+}
+.myrow33{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* width: 100%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.col33{
+    max-width: 33%;
+    width: 100%;
+    flex: 0 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.footerLogo img{
+    max-width: 344px;
+}
+.company_ul ul a{
+    color: white;
+    font-size: 15px;
+}
+.footer_socialMedia{
+margin-top: 96px;
+}
+/*  */
+
+.containerss p{
+    color: #ffffffa8;
+    margin-left: 533px;
+    font-size: 15px;
+}
+/*  */
+
+
+/* for about page */
+.aboutbanner{
+    position: relative;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+.about-bg img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+}
+
+.col-100{
+    width: 100%;
+    flex: 0 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.toRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.about_subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-feature-settings: "liga" off;
+    color: #f63;
+    text-align: center;
+}
+.about_subtitle p{
+    color: #f63;
+}
+
+/* .nav-Wrapper a img{
+    
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        object-fit: cover;
+    } */
+
+.about_caption h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #fff;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.myRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col100{
+    width: 100%;
+    flex: 0 100%;
+}
+.title h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: "liga" off;
+    color: #f63;
+    padding-bottom: 16px;
+}
+.subtitles h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #1d2c59;
+    padding-bottom: 48px;
+}
+.my3row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+    z-index: 9;    
+    align-items: center;
+}
+
+.col-25{
+    max-width: 25%;
+    flex-wrap: wrap;
+    flex: 0 0 25%;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.col-7{
+    max-width: 7%;
+    flex-wrap: wrap;
+    flex: 0 0 7%;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.col-35{
+    max-width: 35%;
+    flex-wrap: wrap;
+    flex: 0 0 35%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.figure img{
+    width: 100%;
+}
+/* .solu::after{
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPatterndown.jpg);
+    background-size: 464px 78px;
+    background-repeat: no-repeat;
+    right: 0;
+    max-width: 460px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    margin-top: -220px;
+} */
+
+/*  */
+
+/*  */
+.fullyIntegrated{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 509px 0 451px;
+    margin-top: -110px;
+}
+
+
+/*  */
+section.fullyIntegrated:after {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPatterndown.jpg);
+    background-size: 464px 78px;
+    background-repeat: no-repeat;
+    right: 0;
+    max-width: 460px;
+    width: 100%;
+    z-index: -1;
+    height: 200px;
+    margin-top: 82px;
+}
+
+
+section.BenefitsForBusiness:before {
+    content: "";
+    display: block;
+    background-image: url(/image/blinkBackgroundPatterndown.jpg);
+    background-size: 464px 78px;
+    background-repeat: no-repeat;
+    right: 0;
+    max-width: 460px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    margin-top: -197px;
+}
+.BenefitsForBusiness{
+margin-top: -477px;
+}
+.myrow1COl{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.fourRow{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 80px;
+    
+}
+.colflex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col25{
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+.percent{
+    color: #f63;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.heads p{
+    color: #667399;
+
+    font-weight: 900;
+    margin: 0;
+}
+.title h4{
+    color: #f63;
+    margin: 0;
+}
+
+#idFooterBlogPageKO{
+background-color: rgb(13, 13, 71);
+margin-top: 100px;
+}
+
+/* adjusting color of footer part */
+.footer_number p{
+    color: white;
+}
+/*  */
+
+
+/* insideblog.html ko css */
+.post_details{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+ 
+}
+.single_banner{
+    max-width: 760px;
+    margin: 0 auto;
+}
+.single_banner_wrap{
+    max-width: 760px;
+    margin: 0 auto;
+}
+.single_title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1d2c59;
+    padding-top: 85px;
+}
+.post_author span{
+    color: #f63;
+}
+.single_banner{
+    margin-top: 15px;
+}
+
+.post_content_sec {
+    padding: 48px 0 77px;
+    border-bottom: 1px solid #bfc6d9;
+}
+.post_content_meta_wrap{
+max-width: 760px;
+margin: 0 auto;
+}
+.post_meta a{
+    color: #f63;
+}
+.post_content p, .post_meta {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d2c59;
+}
+#latestArticle h1{
+    color: #1d2c59;
+    font-size: 25px;
+}
+/*  */
+/* footer ko p tag ko color change */
+.company_ul p{
+    color: white;
+}
+.col-33Wrapper{
+    color: white;
+}
+/*  */
+
+/* about.html ko 7% image fix gaeko */
+.figure {
+    width: 100%;
+}
+/*  */
+
+.youtube img{
+    max-width: 480px;
+    width: 100%;
+}
+
+
+@media(max-width:1326px){
+    
+    .OneRowTwoCol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: -15px;
+        padding-right: -15px;
+    }
+}
+@media(max-width:768px){
+    .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .bigImage{
+        width: 100%;
+        background-image: url(/date/mar9/images/blinkImage.jpg);
+        padding-top: 130px;
+    }
+    .company {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        justify-content: space-evenly;
+        margin-right: 410px;
+    }
+    .choose {
+        background-image: url(//image/blink_white_logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 226px 0 66px;
+        position: relative;
+        margin-top: -40px;
+        z-index: 9;
+        margin-left: 50px;
+        justify-content: space-around;
+    }
+    .y img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .col50 {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 100%;
+        padding-left: 15px;
+        padding-right: 15px;    
+        padding-bottom: 43px;
+
+    }
+    .choose:after {
+        content: "";
+        display: block;
+        background-image: url(/image/blinkBackgroundPattern.jpg);
+        background-size: 311px 76px;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        margin-bottom: -20px;
+    }
+    
+    .col50 img{
+        width: 100%;
+    }
+    .one h3{
+        padding-right: 406px;
+    }
+    .conatinerBlogs {
+        margin: 0;
+        padding: 0;
+    }
+    .Blogs:after{
+        width: 325px;
+        margin-top: 39px;
+    }
+    section.abc:before{
+        max-width: 332px;
+        margin-top: -117px;
+
+    }
+    .Blogs{
+        margin-bottom: -95px;
+    }
+    .oneBlog h3{
+        color: #f63;
+    }
+    .title-blog h4{
+        padding-left: 51px;
+    }
+    .View_more_button a{
+        margin-left: 331px;
+    }
+    .abc{
+        padding-left: 48px;
+        padding-right: 15px;
+    }
+    .footerLogo img {
+        max-width: 148px;
+    }
+    .myrow33{
+        margin-left: 15px;
+    }
+    .containerss p{
+        margin-left: 286px;
+    }
+    .blog, .col-25{
+        flex: 0 0 50%;
+    width: 50%;
+    }
+    .choose_title {
+        height: 70px;
+        margin-top: 21px;
+    }
+
+    .blogManager{
+        flex: 0 50%;
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .blogStory{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .booking_platform {
+        background-image: url(/image/blink_bookingLogo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 509px 0 298px;
+        margin-top: -109px;
+    }
+    .col50-50 {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 1000%;
+    }
+    .choose:before{
+        background-size: 300px 65px;
+    }
+    .choose{
+        margin-top: -90px;
+        margin-left: 27px;
+    }
+    .col33{
+        max-width: 100%;
+        width: 100%;
+        flex: 0 100%;
+    }
+
+
+}
+
+@media(max-width:480px){
+    .logo{
+        height: 45px;
+    }
+    .bigLogo img {
+        max-width: 160px;
+    }
+    .banner{
+        font-size: 14px;
+    }
+    .bigImage{
+        height: 10px;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .about-title h2 {
+        font-size: 20px;
+    }
+    .about-para p{
+        font-size: 15px;
+    }
+    .my-row{
+        margin-bottom: 32px;
+    }
+    .getConnected {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 100%;
+        margin-bottom: 42px;
+    }
+    .col50 img {
+        width: 100%;
+        padding-left: 1px;
+        padding-right: 1px;
+        margin-left: 1px;
+    }
+    .col50{
+        margin-bottom: -91px;
+    }
+    .one{
+        margin-right: 440px;
+    }
+    .one h3{
+        font-size: 25px;
+    }
+    .comp img {
+        width: 89px;
+    }
+    .company{
+        width: 440px;
+    }
+    .two{
+        margin-bottom: 34px;
+    }
+    .comp img {
+        
+        margin-top: -9px;
+    }
+    .blogManager{
+        flex: 0 100%;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .blogImage img{
+        width: 440px;
+        margin-left: 39px;
+    }
+    .date-blog h6{
+        padding-right: 333px;
+    }
+    .title-blog h4{
+        font-size: 15px;
+        padding-left: 38px;
+        color: #1d2c59;
+        margin-top: -26px;
+        margin-bottom: 4px;
+    }
+    .read-blog a{
+        padding-right: 330px;
+        font-size: 13px;
+    }
+    section.abc:before {
+        max-width: 329px;
+        margin-top: -119px;
+    }
+    .Blogs:after {
+        width: 246px;
+        margin-top: 39px;
+    }
+    .View_more_button a {
+        margin-left: 173px;
+        margin-top: 30px;
+    }
+    .View_more_button{
+        margin-top: 30px;
+    }
+    .choose_subtitle h3 {
+        font-size: 16px;
+    }
+    .choose_title h2{
+        font-size: 20px;
+    }
+    .contact {
+        padding: 10px;
+    }
+    .subtitle h2{
+        font-size: 19px;
+    }
+    .information p{
+        font-size: 15px;
+    }
+    .country{
+        font-size: 14px;
+    }
+    .email{
+        font-size: 12px;
+    }
+    .contact_form{
+        padding: 9px;
+    }
+    .conUS button{
+        width: 420px;
+        margin-top: -7px;
+    }
+    .contact_form{
+        padding-bottom: 50px;
+    }
+    .footerLogo img {
+        max-width: 358px;
+    }
+    .containerss p {
+        margin-left: 155px;
+    }
+    .about_button{
+        margin-bottom: 23px;
+    }
+}

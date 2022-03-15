@@ -1,0 +1,18 @@
+css3
+
+
+box-sizing:The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+
+
+
+giving margin to main div and padding to child div for nice looks
+
+flex and flex wrap
+
+justify-content: The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+Tip: Use the align-items property to align the items vertically.
+
+
+align-items
+nav

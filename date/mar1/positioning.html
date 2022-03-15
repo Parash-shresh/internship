@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+</head>
+<style>
+    .container{
+        border: 2px solid orange;
+        background-color: khaki;
+        height: 3444px;
+    }
+    /* position: static; is the default position of html element */
+    .box
+    {
+        /* block level wala 4 ota <div>boxes lai horizontal line ma lauxa */
+        display: inline-block;
+        /*  */
+        border: 2px solid red;
+        height: 200px;
+        width: 200px;
+        margin: 2px;
+        padding: 2px;
+    }
+    #id2
+    {
+        /* position: static;   it is default*/
+
+        /* position : absolute;  absolute le aafno parent sang relate garera positon linxa. this will make id1 to collapse  */
+        /* position: relative; relative to its normal postion bata chalxa. aafulai jaha rakheko xa tei bata margin linxa, absoulte ma aafu kaxa matlab xaina, parent ko position liyera margin linxa*/
+        position: relative;
+        left: 5px;
+        top: 10px;
+    }
+    #id3{
+        position:absolute;
+        left: 34px;
+        bottom: 100px;
+    }
+    #id4{
+        /* keepsitem in fixed postion inspite of screen size. container ko height 5000px rakhya xa vane id4 ma vako element jati scroll garda pani eutai postion ma basx ra dekhinxa. real world example is : chat with us logo and link */
+
+        position: fixed;
+        right: 4px;bottom: 50px;
+    }
+    #id5{
+        position: sticky;
+        top: 3px;
+    }
+
+</style>
+<body>
+    <!-- lets see example creating 4 div that makes 4 boxes -->
+    <div class="container">
+        <div class="box" id="id1">1</div>
+        <div class="box" id="id2">2.<br>padding from its relative postion</div>
+        <div class="box" id="id3">3.<br>padding from its parent postion with bottom:100px</div>
+        <div class="box" id="id4">4.<br>this item is fixed when scrolling</div>
+        <div class="box" id="id5">5.<br>this item is sticky when scrolling, used for making menu that stays on screen when user scroll the mouse </div>
+</div>
+
+</body>
+</html>

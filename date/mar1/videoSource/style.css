@@ -1,0 +1,25 @@
+body{
+    background-attachment: fixed;
+    background: pink;
+    /* always set this 2 thing to 0 so that browsers wont interfare to their */
+    margin: 0px;
+    padding:0;
+    /*  */
+
+}
+.class{
+    border: 5px solid green;
+    border-radius: 18px;
+}
+.nav{
+    background: yellow;
+
+}
+.items{
+    background: red;
+  
+}
+.item{
+    background: purple;
+    /* display: inline-block; */
+}

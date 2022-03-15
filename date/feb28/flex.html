@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .my_row > div 
+        {
+          height: 100px;
+          
+        }
+        .my_row
+        {
+          display: flex;
+          flex-wrap: nowrap;/* wrap will make same box below*/
+          margin-left: -15px;
+          margin-right: -15px;
+          
+        }
+        .my_row > div
+        {
+          margin-bottom: 30px;
+        }
+        .col-wrap
+        {
+          background-color: green;
+          width: 100%;
+          height: 100%;
+        }
+        .col_50,.col_33,.col_25
+        {
+           padding-left: 15px;
+           padding-right: 15px;
+        }
+        .col_50
+        {
+          max-width: 50%;
+          width: 100%;
+          flex: 0 0 50%;
+        }
+        .col_33
+        {
+          max-width: 33.33%;
+          width: 100%;
+          flex: 0 0 33.33%;
+        }
+        .col_25
+        {
+          max-width: 25%;
+          width: 100%;
+          flex: 0 0 25%;
+        }
+        .my_cnt
+        {
+          max-width: 1280px;
+          width: 100%;
+          margin:0 auto;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        @media(max-width: 768px)
+        {
+          .my_row > div
+          {
+             max-width: 50%;
+            width: 100%;
+            flex: 0 0 50%;
+          }
+        }
+        @media(max-width: 480px)
+        {
+          .my_row > div
+          {
+             max-width: 100%;
+            width: 100%;
+            flex: 0 0 100%;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <div class="whole-page">
+     <div class="my_cnt">
+       <div class="my_row">
+        <div class="col_50">
+          <div class="col-wrap">
+          </div>
+        </div>
+        <div class="col_50">
+          <div class="col-wrap">
+
+          </div>
+        </div>
+       </div>   
+       <div class="my_row">
+        <div class="col_33">
+          <div class="col-wrap">
+            
+          </div>
+        </div>
+        <div class="col_33">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_33">
+          <div class="col-wrap"></div>
+        </div>
+       </div>
+       <div class="my_row">
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_50">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_50">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap"></div>
+        </div>
+        <div class="col_25">
+          <div class="col-wrap">
+            <h1>Demo</h1>
+            <h2>Demo</h2>
+            <a href="#">Demo</a>
+            <a href="#">Demo</a>
+          </div>
+        </div>
+       </div>
+     </div>
+    </div>
+</body>
+</html>

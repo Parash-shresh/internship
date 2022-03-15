@@ -1,0 +1,219 @@
+ul li{
+    list-style: none;
+}
+
+a, a:hover, a:focus{
+    text-decoration: none;
+    outline: 0px;
+}
+input, button, select{
+    font-family: inherit;
+    outline: 0px;
+}
+.wholepage{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+} 
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (max-width:200px){
+    body{
+        background-color: black;
+    }
+}
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.mainDiv{
+    /* making page scrollable for testing sticky */
+    height: 1000px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+
+a{
+    padding: 12px;
+    color: black;
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+height: 106px;
+}
+.myrowWith3column{
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    flex-wrap: nowrap; 
+    margin-right: -15px;
+    margin-left: 15px;
+    justify-content: space-around;
+    height: 100px;
+}
+/* p{
+    display: flex; justify-content:start;
+} */
+.input{
+    padding-top: 22px; 
+    border: 0px solid lightcyan; 
+    position: relative;
+    margin: 14px;
+}
+.menubar{
+    /* background: rgb(221 215 215 / 18%); */
+    background: #f5f5f5;
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    top: 0;
+    padding: 6px;
+    position: sticky;
+    font-size: 16px;
+}
+
+
+/* form animated */
+/* input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  } */
+  
+  /* input[type=text]:focus {
+    width: 100%;
+  } */
+  /* for animated searchbox */
+
+.search{
+    padding: 5px;
+    border: 2px solid #efebeb;
+    background: #efebeb;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input{
+      border: 0px;
+      line-height: 2;
+      background: rgb(243, 236, 236);
+  }
+  button{
+      border: 0px;
+  }
+  /*  */
+
+  /* for backgroundimage */
+  .photo{
+  /* background-image: url("../../../../image/demoPicture.jpg"); */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  /* width: 100%; */
+  opacity: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/image/demoPicture.jpg);
+ 
+}
+/* text lai opacity*/
+.uniquetext{
+    font-size: 86px;
+    text-align: center;
+    /* font-family: cursive; */
+    font-family: 'Dancing Script';
+    color: white;
+}
+.ourShop{
+    /* display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 15px; */
+}
+/* inside ourshop >insideshop div */
+.insideOurShop{
+    /* border: 2px solid red;  */
+    top: 0;
+    font-family: 'Dancing Script'; 
+    font-size: 36px;
+    color: #f66875;    
+}
+
+.abc{
+    position: relative;
+}
+.abc::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 170px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+}
+.abc::after {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: 170px;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.2;
+    top: 50%;
+}
+/*  for second Menu*/
+.fourRow{
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    top: 0; 
+    padding: 0;
+    margin-bottom: 0;
+    height: 50px;
+}
+/* a,  */
+a:hover, a:active, a:visited, a:focus {
+    text-decoration:underline;
+    /* padding: 20px; this will give animation effects */
+    /* opacity: 0.7;
+    transition: 0.6s;
+    background: linear-gradient(45deg, #ff0202b4, transparent); */
+}
+
+
+/*  */

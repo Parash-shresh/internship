@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+ul ,li{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a, a:hover, a:focus{
+    /* padding-right: 10px;
+    padding-bottom: 10px; */
+    text-decoration: none;
+    outline: 0px;
+    font-weight: 900;
+    /* color: black; */
+}
+input, button, select{
+    font-family: inherit;
+    outline: 0px;
+}
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+.main-container{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo-header{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background-image{
+    background-image: url(/images/big-image.jpeg);
+    height: 65vw;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    max-width: 100%;
+    background-size: cover;
+}
+.logo-image{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.blank-col{
+    max-width: 50%;
+    flex: 0 50%;
+    width: 100%;
+}
+.twocol-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 105px;
+    padding-left: 111px;
+}
+.background-image{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.two-col{
+    max-width: 50%;
+    width: 100%;
+    flex: 0 50%;
+}
+/* increasing health title */
+.title h1{
+    font-size: 8.125rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 24px;
+}
+.btn-readmore{
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 30px auto 0 0;
+    padding: 16px 52px 16px 51px;
+}
+
+.read-more{
+    height: 74px;
+    width: 264px;
+    margin-left: -55px;
+    font-size: 20px;
+    
+}
+
+/* for product types */
+/* background lai white banako so paxi margin padding dida white nai hunxa */
+.product-types{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 42px;
+    margin-bottom: 62px;
+}
+.whole{
+    
+    padding-right: 92px;
+    padding-left: 80px;
+}
+/* creating one row with four col. first col ll've 40% and other 3 cols will get 20% */
+.onerow-fourcol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col40{
+    max-width: 38%;
+    flex: 0 38%;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.col20{
+    max-width: 18%;
+    flex: 0 18%;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/* 20% column wala vitra pani h1 p ra readmore button xa so yeslai ni flex bata gaeko. flex-direction: column bata flex conatiner ko direction change garna milxa */
+.col40-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 370px;
+}
+.col20-rowA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 370px;
+    background-color: #6a4aa1;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 27px;
+    padding-right: 19px;
+}
+.col20-rowB{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 370px;
+    background-color: #d01e55;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 27px;
+    padding-right: 19px;
+}
+.col20-rowC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 370px;
+    background-color: #292d33;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 27px;
+    padding-right: 19px;
+}
+
+/* col40-40 ko h1 ko font size increase gareko */
+.col40-col h1{
+    flex-wrap: wrap;
+    font-size: 40px;
+
+}
+
+svg{
+    height: 50px;
+    fill: white
+
+}
+.para h4{
+    font-weight: 400;
+}
+.icon{
+    margin-top: 28px;
+}
+.product-title{
+    margin-bottom: -28px;
+    text-align: center;
+}
+.btn-readmore{
+    margin-top: 43px;
+}
+.col40-col{
+    margin-bottom: -39px;
+}
+.read-moreA {
+    background: #292d33;
+    color: white;
+    height: 74px;
+    width: 264px;
+    margin-left: -55px;
+    font-size: 20px;
+}
+
+/*  */
+
+/* submit matra vako form */
+.submit-form{
+    background-image: url(/images/form-background.jpeg);
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-wrap{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding-top: 114px;
+    margin-left: 100px;
+    
+}
+/* be healthy font size */
+.be-healthy h1{
+    font-size: 3.75rem
+}
+.form-input{
+    border-color: #ffffff;
+    border-width: 2px;
+    height: 50px;
+    width: 356px;
+}
+.submit-button{
+    height: 50px;
+    width: 356px;
+    margin-top: 10px;
+    background-color: #6a4aa1;
+    border: 0px;
+}
+
+/* tips froom experts */
+.tips-from-experts{
+    color: #ffffff;
+    background-color: #6a4aa1;
+
+}
+
+.tips-from-experts{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* one row that has 6 elements flexing */
+.f-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sixCOl{
+    width: 100%;
+    max-width: 33.33%;
+    flex: 0 33.33%;
+    color: white;
+}
+.six-Col-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logos{
+    max-width: 30%;
+    flex: 0 30%;
+}
+.desc{
+    max-width: 70%;
+    flex: 0 70%;
+}
+/* logo ko postion milako */
+.logos img{
+    
+    margin-left: 43px;
+    margin-bottom: 101px;
+    padding-left: 5px;
+}
+.tips-expert-h1{
+    padding-top: 50px;
+    padding-left: 284px;
+    font-size: 3rem;
+}
+.desc h1{
+    font-size: 1.30rem;
+    margin-bottom: 34px;
+    font-weight: 700;
+}
+.desc p{
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+
